@@ -3,6 +3,10 @@ require 'pathname'
 
 Root = Pathname.new(File.dirname(__FILE__)).expand_path
 
+task :planet do
+  sh 'python vendor/venus/planet.py config/planet.ini'
+end
+
 task :whenever do
   load_paths = Root.join('vendor', 'gems').children.map { |child| child.join('lib') }
   executable = Root.join('vendor', 'gems', 'javan-whenever-0.3.7', 'bin', 'whenever')
