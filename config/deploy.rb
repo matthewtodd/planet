@@ -29,3 +29,11 @@ namespace :deploy do
     CMD
   end
 end
+
+after 'deploy:update_code' do
+  run "cd #{release_path} && rake planet"
+end
+
+after 'deploy:symlink' do
+  run "cd #{release_path} && rake whenever"
+end
