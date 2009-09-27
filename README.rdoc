@@ -4,7 +4,6 @@ This is my own installantion of Venus[http://intertwingly.net/code/venus/], live
 
 == Notes to Self
 
-* Set up logrotate.
 * Use a different format for subscriptions.ini; though the HTML templates care, I don't like having to duplicate the "name" setting.
 * Find a way to use the feed-level author for entries that lack author information.
 * Restore a robots.txt file, according to http://intertwingly.net/code/venus/docs/etiquette.html.
