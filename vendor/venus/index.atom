@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title>venus</title>
+  <id>tag:intertwingly.net,2007-02-16:code/venus</id>
+  <link href='http://intertwingly.net/code/venus/'/>
+  <link rel='self' type='application/atom+xml' href='/code/venus/index.atom'/>
+  <updated>2006-10-25T16:20:28Z</updated>
+
+  <entry>
+    <author>
+      <name>Sam Ruby</name>
+    </author>
+    <title>Revision 116: Switch from simpleTree to DOM as DOM appears to be more robust</title>
+    <link href='http://intertwingly.net/code/venus/#116'/>
+    <id>tag:rubys@rubixe,2009-09-09:15:52:19-sv8j32f9og0ifg6x</id>
+    <updated>2009-09-09T15:52:19Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/planet/scrub.py'>planet/scrub.py</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Sam Ruby</name>
+    </author>
+    <title>Revision 115: Update to the lastest html5lib; replace feedparser's sanitizer with</title>
+    <link href='http://intertwingly.net/code/venus/#115'/>
+    <id>tag:rubys@rubixe,2009-09-09:14:54:21-cglgadnm6pal232a</id>
+    <updated>2009-09-09T14:54:21Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <p>html5lib's</p>
+    <dl>
+      <dt>Added:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/filters/formfiller.py'>planet/vendor/html5lib/filters/formfiller.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/filters/sanitizer.py'>planet/vendor/html5lib/filters/sanitizer.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/ihatexml.py'>planet/vendor/html5lib/ihatexml.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/etree_lxml.py'>planet/vendor/html5lib/treebuilders/etree_lxml.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/lxmletree.py'>planet/vendor/html5lib/treewalkers/lxmletree.py</a></li>
+      </ul></dd>
+      <dt>Removed:</dt><dd><ul>
+        <li>planet/vendor/html5lib/liberalxmlparser.py</li>
+      </ul></dd>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/planet/reconstitute.py'>planet/reconstitute.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/scrub.py'>planet/scrub.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/__init__.py'>planet/vendor/html5lib/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/constants.py'>planet/vendor/html5lib/constants.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/filters/optionaltags.py'>planet/vendor/html5lib/filters/optionaltags.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/html5parser.py'>planet/vendor/html5lib/html5parser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/inputstream.py'>planet/vendor/html5lib/inputstream.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/sanitizer.py'>planet/vendor/html5lib/sanitizer.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/serializer/__init__.py'>planet/vendor/html5lib/serializer/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/serializer/htmlserializer.py'>planet/vendor/html5lib/serializer/htmlserializer.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/tokenizer.py'>planet/vendor/html5lib/tokenizer.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/__init__.py'>planet/vendor/html5lib/treebuilders/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/_base.py'>planet/vendor/html5lib/treebuilders/_base.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/dom.py'>planet/vendor/html5lib/treebuilders/dom.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/etree.py'>planet/vendor/html5lib/treebuilders/etree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/simpletree.py'>planet/vendor/html5lib/treebuilders/simpletree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/soup.py'>planet/vendor/html5lib/treebuilders/soup.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/_base.py'>planet/vendor/html5lib/treewalkers/_base.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/dom.py'>planet/vendor/html5lib/treewalkers/dom.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/etree.py'>planet/vendor/html5lib/treewalkers/etree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/genshistream.py'>planet/vendor/html5lib/treewalkers/genshistream.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/pulldom.py'>planet/vendor/html5lib/treewalkers/pulldom.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/simpletree.py'>planet/vendor/html5lib/treewalkers/simpletree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/soup.py'>planet/vendor/html5lib/treewalkers/soup.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/utils.py'>planet/vendor/html5lib/utils.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/content_illegal_char.xml'>tests/data/reconstitute/content_illegal_char.xml</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Sam Ruby</name>
+    </author>
+    <title>Revision 114: Remove deprecation warnings (and update httplib2)</title>
+    <link href='http://intertwingly.net/code/venus/#114'/>
+    <id>tag:rubys@rubixe,2009-09-09:13:20:15-a5bh8otu26rqb851</id>
+    <updated>2009-09-09T13:20:15Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/planet/reconstitute.py'>planet/reconstitute.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/spider.py'>planet/spider.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/httplib2/__init__.py'>planet/vendor/httplib2/__init__.py</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Sam Ruby</name>
+    </author>
+    <title>Revision 113: Move call to utime into write</title>
+    <link href='http://intertwingly.net/code/venus/#113'/>
+    <id>tag:rubys@intertwingly.net,2009-04-20:15:15:10-umaliwv8kqu5f5vg</id>
+    <updated>2009-04-20T15:15:10Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/planet/spider.py'>planet/spider.py</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Sam Ruby</name>
+    </author>
+    <title>Revision 112: Add a meta charset</title>
+    <link href='http://intertwingly.net/code/venus/#112'/>
+    <id>tag:rubys@intertwingly.net,2009-02-27:19:25:38-iev8rljjd682w2oy</id>
+    <updated>2009-02-27T19:25:38Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/index.html.xslt'>themes/asf/index.html.xslt</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Sam Ruby</name>
+    </author>
+    <title>Revision 111: https://bugzilla.mozilla.org/show_bug.cgi?id=463955</title>
+    <link href='http://intertwingly.net/code/venus/#111'/>
+    <id>tag:rubys@intertwingly.net,2009-02-27:15:35:42-6krkxkoixkhwuq2m</id>
+    <updated>2009-02-27T15:35:42Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/feedparser.py'>planet/vendor/feedparser.py</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Sam Ruby</name>
+    </author>
+    <title>Revision 110: Resync with feedparser</title>
+    <link href='http://intertwingly.net/code/venus/#110'/>
+    <id>tag:rubys@intertwingly.net,2009-02-25:20:22:03-0ajjd0i8a1ba516s</id>
+    <updated>2009-02-25T20:22:03Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/feedparser.py'>planet/vendor/feedparser.py</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Sam Ruby</name>
+    </author>
+    <title>Revision 109: make the subdirectory path in the test data explicit</title>
+    <link href='http://intertwingly.net/code/venus/#109'/>
+    <id>tag:rubys@intertwingly.net,2009-01-09:14:46:48-7ktsoest6e3kq0wk</id>
+    <updated>2009-01-09T14:46:48Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <p>props: Dave Levy</p>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/config/eliast.foaf'>tests/data/config/eliast.foaf</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Sam Ruby</name>
+    </author>
+    <title>Revision 108: OPML top 100 changes</title>
+    <link href='http://intertwingly.net/code/venus/#108'/>
+    <id>tag:rubys@intertwingly.net,2009-01-09:08:11:16-ofa4cqvn0p8lw9ea</id>
+    <updated>2009-01-09T08:11:16Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/examples/opml-top100.ini'>examples/opml-top100.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/mememe.plugin'>filters/mememe.plugin</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/tmpl.py'>planet/shell/tmpl.py</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Sam Ruby</name>
+    </author>
+    <title>Revision 107: title as default name in subscriptions too...</title>
+    <link href='http://intertwingly.net/code/venus/#107'/>
+    <id>tag:rubys@intertwingly.net,2008-10-13:19:47:02-du4gew7eybqz7y7q</id>
+    <updated>2008-10-13T19:47:02Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/tmpl.py'>planet/shell/tmpl.py</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+</feed>
