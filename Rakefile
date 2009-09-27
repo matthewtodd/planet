@@ -1,4 +1,6 @@
+# Whenever re-loads this Rakefile and uses RAILS_ROOT as its default path.
 require 'rake'
+RAILS_ROOT = File.expand_path(File.dirname(__FILE__))
 
 task :clean do
   sh 'git clean -fdX'
