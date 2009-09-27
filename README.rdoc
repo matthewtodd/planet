@@ -1,0 +1,11 @@
+= Planet
+
+This is my own installantion of Venus[http://intertwingly.net/code/venus/], live at http://planet.matthewtodd.org.
+
+== Notes to Self
+
+* Turn on logging in cron runs.
+* Set up logrotate.
+* Use a different format for subscriptions.ini; though the HTML templates care, I don't like having to duplicate the "name" setting.
+* Find a way to use the feed-level author for entries that lack author information.
+* Restore a robots.txt file, according to http://intertwingly.net/code/venus/docs/etiquette.html.
