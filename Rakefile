@@ -1,15 +1,13 @@
 require 'rake'
-require 'pathname'
 
-Root = Pathname.new(File.dirname(__FILE__)).expand_path
+task :clean do
+  sh 'git clean -fdX'
+end
 
 task :planet do
   sh 'python vendor/venus/planet.py config/planet.ini'
 end
 
 task :whenever do
-  load_paths = Root.join('vendor', 'gems').children.map { |child| child.join('lib') }
-  executable = Root.join('vendor', 'gems', 'javan-whenever-0.3.7', 'bin', 'whenever')
-
-  sh "ruby #{load_paths.map { |path| '-I ' + path }.join(' ')} #{executable} --update-crontab planet"
+  sh 'ruby -I vendor/gems/chronic-0.2.3/lib -I vendor/gems/javan-whenever-0.3.7/lib vendor/gems/javan-whenever-0.3.7/bin/whenever --update-crontab'
 end
