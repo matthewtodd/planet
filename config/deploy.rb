@@ -37,3 +37,8 @@ end
 after 'deploy:symlink' do
   run "cd #{release_path} && rake whenever"
 end
+
+desc 'Download latest logfiles for local inspection.'
+task :logs do
+  get "#{shared_path}/log/venus.log", 'venus.production.log'
+end
