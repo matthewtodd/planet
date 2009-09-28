@@ -7,7 +7,7 @@ task :clean do
 end
 
 task :planet do
-  sh 'python vendor/venus/planet.py config/planet.ini'
+  sh 'env PYTHONPATH=lib/shell python vendor/venus/planet.py config/planet.ini'
 end
 
 task :whenever do
