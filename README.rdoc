@@ -5,5 +5,5 @@ This is my own installantion of Venus[http://intertwingly.net/code/venus/], live
 == Notes to Self
 
 * Restore a robots.txt file, according to http://intertwingly.net/code/venus/docs/etiquette.html.
-* Drop the HTML bits; write a simple theme that just imports common. Or can I just use common?
 * Patch feedparser to continue including the xlink namespace.
+* Must I include "lib/shell" in the PYTHONPATH? Why not just "lib"? (Want to clean up theme inclusion, too.)
