@@ -6,3 +6,7 @@ This is my own installantion of Venus[http://intertwingly.net/code/venus/], live
 
 * Patch feedparser to continue including the xlink namespace.
 * Must I include "lib/shell" in the PYTHONPATH? Why not just "lib"? (Want to clean up theme inclusion, too.)
+* Play with bundler some day when the internet's working better. (Stupid timeout errors.) Should just need the following in Gemfile, plus `gem bundle`:
+
+ source 'http://gems.github.com'
+ gem    'javan-whenever'
