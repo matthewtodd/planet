@@ -14,5 +14,5 @@ end
 
 desc 'Schedule feed fetching in crontab'
 task :crontab do
-  sh 'ruby -I vendor/gems/chronic-0.2.3/lib -I vendor/gems/javan-whenever-0.3.7/lib vendor/gems/javan-whenever-0.3.7/bin/whenever --update-crontab planet'
+  sh 'bin/whenever --update-crontab planet'
 end
