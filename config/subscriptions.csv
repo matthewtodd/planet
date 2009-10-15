@@ -31,6 +31,8 @@ http://dannorth.net/feed/atom
 http://dogbiscuit.org/mdub/weblog/?format=atom
 http://dunehopperdiaries.blogspot.com/feeds/posts/default
 http://dustin.github.com/atom.xml
+http://feeds.arstechnica.com/arstechnica/apple
+http://feeds.feedburner.com/artweb-design
 http://feeds.feedburner.com/binarylogic
 http://feeds.feedburner.com/buckblog
 http://feeds.feedburner.com/BurnThisRSS2
@@ -82,8 +84,10 @@ http://feeds.railsmagazine.com/RailsMagazine
 http://feeds.runcoderun.com/runcoderun_blog
 http://feeds2.feedburner.com/adeptware
 http://feeds2.feedburner.com/AgileDisciple
+http://feeds2.feedburner.com/elabs
 http://feeds2.feedburner.com/GoogleVoiceBlog
 http://feeds2.feedburner.com/iphoneonrails
+http://feeds2.feedburner.com/LitanyAgainstFear
 http://feeds2.feedburner.com/matthewtodd_org
 http://feeds2.feedburner.com/redsquirrel
 http://github.com/feeds/opscode/commits/chef/master
@@ -92,6 +96,7 @@ http://google-africa.blogspot.com/feeds/posts/default
 http://hoth.entp.com/feed/atom.xml
 http://intertwingly.net/blog/index.atom
 http://jakescruggs.blogspot.com/feeds/posts/default
+http://jeremy.zawodny.com/blog/rss2.xml
 http://jobs.whiteafrican.com/rss/programmers/
 http://joewalnes.com/feed/
 http://mad.ly/feed/
@@ -111,6 +116,7 @@ http://pragprog.com/podcasts/feed.rss
 http://programblings.com/feed/
 http://robsanheim.com/feed/
 http://stochasticresonance.wordpress.com/feed/
+http://tomayko.com/feed
 http://trac.macports.org/log/trunk/dports/devel/git-core?limit=100&mode=stop_on_copy&format=rss
 http://unixjunkie.blogspot.com/feeds/posts/default
 http://update.gemcutter.org/atom.xml
@@ -118,6 +124,7 @@ http://utazni.com/feed/atom
 http://velocityconference.blip.tv/rss
 http://vimeo.com/coreyhaines/videos/rss
 http://vimeo.com/hashrocket/videos/rss
+http://vimeo.com/heroku/videos/rss
 http://whiteafrican.com/wp-content/plugins/gigs-calendar/rss.php
 http://wordpress.org/development/feed/
 http://www.aaronsw.com/2002/feeds/pgessays.rss
@@ -138,6 +145,7 @@ http://www.threeriversinstitute.org/rss2.xml
 http://www.tpope.net/node/feed
 http://www.xprogramming.com/feed.xml
 http://xprogramming.com/feed/atom/
+http://yehudakatz.com/feed/atom/
 http://zaheer.merali.org/feed/
 https://help.joyent.com/index.php?pg=forums.feed&id=1
 https://help.joyent.com/index.php?pg=forums.feed&id=3
