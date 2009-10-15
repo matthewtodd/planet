@@ -31,11 +31,11 @@ namespace :deploy do
 end
 
 after 'deploy:update_code' do
-  run "cd #{release_path} && rake planet"
+  run "cd #{release_path} && rake"
 end
 
 after 'deploy:symlink' do
-  run "cd #{release_path} && rake whenever"
+  run "cd #{release_path} && rake crontab"
 end
 
 desc 'Download latest logfiles for local inspection.'
