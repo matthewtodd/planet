@@ -30,10 +30,6 @@ namespace :deploy do
   end
 end
 
-after 'deploy:update_code' do
-  run "cd #{release_path} && rake"
-end
-
 after 'deploy:symlink' do
   run "cd #{release_path} && rake crontab"
 end
@@ -41,4 +37,12 @@ end
 desc 'Download latest logfiles for local inspection.'
 task :logs do
   get "#{shared_path}/log/venus.log", 'venus.production.log'
+end
+
+# Note that we don't automatically refresh feeds on deploy -- it just takes
+# too long! I'm generally happy to let cron take care of it in due time, but
+# this refresh task is here just in case.
+desc 'Manually refresh feeds.'
+task :refresh do
+  run "cd #{current_path} && rake"
 end
