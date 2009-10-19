@@ -32,6 +32,7 @@ end
 
 after 'deploy:symlink' do
   run "cd #{release_path} && rake crontab"
+  deploy.cleanup
 end
 
 desc 'Download latest logfiles for local inspection.'
