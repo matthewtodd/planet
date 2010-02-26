@@ -20,6 +20,7 @@ http://blog.jquery.com/feed/
 http://blog.macromates.com/feed/
 http://blog.objectmentor.com/xml/atom/category/uncle-bobs-blatherings/feed.xml
 http://blog.opscode.com/atom.xml
+http://blog.peepcode.com/articles.xml
 http://blog.phusion.nl/feed/atom/
 http://blog.zenspider.com/atom.xml
 http://brainspl.at/xml/rss20/feed.xml
@@ -118,7 +119,6 @@ http://feeds2.feedburner.com/redsquirrel
 http://github.com/feeds/rails/commits/rails/master
 http://hacks.mozilla.org/feed/
 http://intertwingly.net/blog/index.atom
-http://jeremy.zawodny.com/blog/rss2.xml
 http://jobs.whiteafrican.com/rss/programmers/
 http://joewalnes.com/feed/
 http://mad.ly/feed/
