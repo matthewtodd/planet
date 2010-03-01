@@ -2,7 +2,6 @@ feed
 http://adam.blog.heroku.com/feed
 http://adamstacoviak.com/feed/
 http://agilesolutionspace.blogspot.com/feeds/posts/default
-http://feeds.feedburner.com/ajaxian
 http://amanikids.org/feed.atom
 http://armstrongonsoftware.blogspot.com/feeds/posts/default
 http://austintaylor.org/feed.xml
@@ -16,7 +15,6 @@ http://blog.envylabs.com/feed/
 http://blog.fallingsnow.net/feed/
 http://blog.grayproductions.net/index.rss
 http://blog.headius.com/feeds/posts/default
-http://feeds.feedburner.com/jquery/
 http://blog.macromates.com/feed/
 http://blog.objectmentor.com/xml/atom/category/uncle-bobs-blatherings/feed.xml
 http://blog.opscode.com/atom.xml
@@ -61,6 +59,7 @@ http://feeds.feedburner.com/TheRailsWay
 http://feeds.feedburner.com/TinyRobotsCuddlingWithOtherTinyRobots
 http://feeds.feedburner.com/UnixjunkieBlog
 http://feeds.feedburner.com/VigetExtend
+http://feeds.feedburner.com/ajaxian
 http://feeds.feedburner.com/artweb-design
 http://feeds.feedburner.com/binarylogic
 http://feeds.feedburner.com/brynary
@@ -69,11 +68,13 @@ http://feeds.feedburner.com/career20
 http://feeds.feedburner.com/devver/blog
 http://feeds.feedburner.com/duffomelia
 http://feeds.feedburner.com/edgerails
+http://feeds.feedburner.com/engineyard
 http://feeds.feedburner.com/entp-hoth
 http://feeds.feedburner.com/github
 http://feeds.feedburner.com/hasmanythrough
 http://feeds.feedburner.com/heroku
 http://feeds.feedburner.com/jayfields/mjKQ
+http://feeds.feedburner.com/jquery/
 http://feeds.feedburner.com/kaboomerang/Nlmc
 http://feeds.feedburner.com/marshill/podcast
 http://feeds.feedburner.com/mongotips
@@ -82,6 +83,7 @@ http://feeds.feedburner.com/nordicruby
 http://feeds.feedburner.com/nubyonrails
 http://feeds.feedburner.com/obie
 http://feeds.feedburner.com/olabini
+http://feeds.feedburner.com/omgbloglol
 http://feeds.feedburner.com/ozmmorg
 http://feeds.feedburner.com/pelargir
 http://feeds.feedburner.com/pragandy
@@ -102,6 +104,7 @@ http://feeds.feedburner.com/white_african
 http://feeds.feedburner.com/wynn
 http://feeds.giraffesoft.ca/giraffesoft-the-blog
 http://feeds.intridea.com/intridea
+http://feeds.macosxhints.com/macosxhints/recent
 http://feeds.pivotallabs.com/pivotallabs/blabs.rss
 http://feeds.railsmagazine.com/RailsMagazine
 http://feeds.runcoderun.com/runcoderun_blog
@@ -129,7 +132,6 @@ http://michaelswanger.blogspot.com/feeds/posts/default
 http://moonbase.rydia.net/index.xml
 http://news.atebits.com/rss
 http://nipponnotebooks.typepad.com/journal/atom.xml
-http://feeds.feedburner.com/omgbloglol
 http://onestepback.org/index.cgi/index.rss
 http://picasaweb.google.com/data/feed/base/user/mswanger?kind=album&alt=rss&hl=en_US&access=public
 http://pragdave.pragprog.com/pragdave/atom.xml
@@ -141,6 +143,7 @@ http://seancribbs.com/atom.xml
 http://sigpipe.macromates.com/feed/
 http://status.heroku.com/feed
 http://stochasticresonance.wordpress.com/feed/
+http://tbaggery.com/atom.xml
 http://tenderlovemaking.com/feed/atom/
 http://tomayko.com/feed
 http://update.gemcutter.org/atom.xml
@@ -158,20 +161,17 @@ http://www.alistapart.com/site/rss
 http://www.cincomsmalltalk.com/rssBlog/ralph-rss.xml
 http://www.clarkware.com/cgi/blosxom/index.rss
 http://www.darrenhobbs.com/index.xml
-http://feeds.feedburner.com/engineyard
 http://www.exampler.com/blog/feed/
 http://www.io.com/~wazmo/blog/atom.xml
 http://www.jbrains.ca/rss
 http://www.joelonsoftware.com/rss.xml
 http://www.m3p.co.uk/feed/
-http://feeds.macosxhints.com/macosxhints/recent
 http://www.natpryce.com/news.feed
 http://www.npr.org/rss/podcast.php?id=35
 http://www.pragprog.com/feed/global
 http://www.satisfice.com/blog/feed
 http://www.tbray.org/ongoing/ongoing.atom
 http://www.threeriversinstitute.org/rss2.xml
-http://tbaggery.com/atom.xml
 http://www.xkcd.com/atom.xml
 http://www.xprogramming.com/feed.xml
 http://xprogramming.com/feed/atom/
