@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'optparse'
 require 'pathname'
 require 'rexml/document'
 require 'uri'
@@ -59,21 +58,20 @@ class Options
     @mime_types  = []
     @output_path = Pathname.pwd
 
-    option_parser.parse(*args)
+    parse(*args)
 
     freeze
   end
 
   private
 
-  def option_parser
-    OptionParser.new do |parser|
-      parser.on('--mime-types TYPE1,TYPE2,TYPE3', Array) do |mime_types|
-        @mime_types = mime_types
-      end
-
-      parser.on('--output-path PATH') do |path|
-        @output_path = Pathname.new(path)
+  def parse(*args)
+    Hash[*args].each do |key, value|
+      case key
+      when '--mime-types'
+        @mime_types = value.split(',')
+      when '--output-path'
+        @output_path = Pathname.new(value)
       end
     end
   end
