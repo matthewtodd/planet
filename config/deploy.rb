@@ -1,3 +1,7 @@
+# woodward has rubygems 1.3.5, but bundler proper needs 1.3.6.
+# I don't want to keep managing my own copy of rubygems up there.
+depend :remote, :gem, 'bundler08', '~> 0.8.5'
+
 set :application, 'planet'
 set :repository,  'git://github.com/matthewtodd/planet.git'
 set :deploy_to,   '/users/home/matthew/domains/planet.matthewtodd.org/var/www'
@@ -25,7 +29,8 @@ namespace :deploy do
       rm -rf #{latest_release}/log #{latest_release}/tmp/cache &&
       mkdir -p #{latest_release}/tmp &&
       ln -s #{shared_path}/cache #{latest_release}/tmp/cache &&
-      ln -s #{shared_path}/log #{latest_release}/log
+      ln -s #{shared_path}/log #{latest_release}/log &&
+      cd #{latest_release} && gem bundle --cached
     CMD
   end
 end
